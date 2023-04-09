@@ -77,7 +77,7 @@
             </p>
             <div class="control">
               <!-- svelte-ignore a11y-missing-attribute -->
-              <div class="button is-primary" onclick="copyUrl();" id="copyButton">
+              <div class="button is-primary" id="copyButton">
                 Copy
               </div>
             </div>
