@@ -14,7 +14,10 @@
         </div>
 
         <div class="navbar-menu" id="navbarMenu">
-            <div class="navbar-end"><a href="https://mdnwvn.com" class="navbar-item is-active" target="_blank">MWCOM</a></div>
+            <div class="navbar-end">
+              <a href="https://github.com/mdnwvn/notillegal.link" class="navbar-item" target="_blank">Github</a>
+              <a href="https://mdnwvn.com" class="navbar-item" target="_blank">MWCOM</a>
+            </div>
         </div>
       </div>
       

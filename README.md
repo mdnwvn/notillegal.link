@@ -4,7 +4,8 @@
 ## Why does this exist?
 
 Well you see, I bought this domain 4 years ago and it's been draining my bank account ever since so I thought
-I'd finally get around to doing what I've always meant to do on it.
+I'd finally get around to doing what I've always meant to do on it. I whipped this up in the better part of 
+an hour, so I'd say it turned out half decent.
 
 Code graciously used from these ancient StackOverflow posts:
 * https://stackoverflow.com/questions/3840600/javascript-regular-expression-remove-first-and-last-slash
