@@ -14,7 +14,6 @@ function isValidHttpUrl(string) {
 function redirecturl(params) {
   let path = params.route.split('/')
   let decoded = Base64.decode(path[path.length - 1])
-  console.log(decoded)
   if(isValidHttpUrl(decoded)) return decoded;
   return "/invalid"
 }
