@@ -3,7 +3,7 @@
 
 ## Why does this exist?
 
-Well you see, I bought this domain 4 years ago and it's been draining my bank account every since so I though
+Well you see, I bought this domain 4 years ago and it's been draining my bank account ever since so I thought
 I'd finally get around to doing what I've always meant to do on it.
 
 # Usage
