@@ -94,14 +94,24 @@
 <script>
   import { onMount } from 'svelte';
   import { Base64 } from 'js-base64';
+  import { words } from './words';
+  
+
 
   const trimSlashes = str => str.split('/').filter(v => v !== '').join('/');
 
   let host = "https://notillegal.link/"
 
+
+  var first = words[Math.floor(Math.random()*words.length)];
+  var second = words[Math.floor(Math.random()*words.length)];
+  var third = words[Math.floor(Math.random()*words.length)];
+
+
+
   let targetUrl = ""
-  let customPath = "sketchy/custom/link"
-  $: finalUrl = host + trimSlashes(customPath) + '/' + Base64.encode(targetUrl);
+  let customPath = `${first}/${second}/${third}`
+  $: finalUrl = host + trimSlashes(customPath) + '/' + Base64.encodeURI(targetUrl);
 
 
   

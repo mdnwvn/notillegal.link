@@ -12,6 +12,9 @@ Code graciously used from these ancient StackOverflow posts:
 * https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
 
 
+The random slug generator is just drawing from the onelistforall micro wordlist here:
+* https://github.com/six2dez/OneListForAll 
+
 # Usage
 
 There's a `build.sh` that automatically stashes then clears the stash of the current directory,
