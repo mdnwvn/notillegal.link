@@ -103,9 +103,9 @@
   let host = "https://notillegal.link/"
 
 
-  var first = words[Math.floor(Math.random()*words.length)];
-  var second = words[Math.floor(Math.random()*words.length)];
-  var third = words[Math.floor(Math.random()*words.length)];
+  var first =  encodeURIComponent(words[Math.floor(Math.random()*words.length)]);
+  var second = encodeURIComponent(words[Math.floor(Math.random()*words.length)]);
+  var third =  encodeURIComponent(words[Math.floor(Math.random()*words.length)]);
 
 
 
