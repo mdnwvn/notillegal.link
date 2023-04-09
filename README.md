@@ -13,7 +13,7 @@ syncs the repo using the Github CLI, before finally installing deps and building
 This is mostly a script I use personally to quickly updated the hosted version after committing a
 change locally.
 
-#### The original SvelteKit readme explains how to actually develop with Sveltekit better so here's that:
+#### The original SvelteKit readme explains how to actually get started with Sveltekit so here's that:
 
 ## Developing
 
