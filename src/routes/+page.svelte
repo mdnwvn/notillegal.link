@@ -133,7 +133,7 @@
 
     copyButton.addEventListener("click", function () {
       navigator.clipboard.writeText(finalUrl);
-      alert("Url copied to keyboard");
+      alert("Url copied to your board of clips");
     });
 
 
