@@ -1,18 +1,19 @@
-# create-svelte
+# notillegal.link
+### A dumb little site that makes links sketchy
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Why does this exist?
 
-## Creating a project
+Well you see, I bought this domain 4 years ago and it's been draining my bank account every since so I though
+I'd finally get around to doing what I've always meant to do on it.
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Usage
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+There's a `build.sh` that automatically stashes then clears the stash of the current directory,
+syncs the repo using the Github CLI, before finally installing deps and building the SvelteKit app.
+This is mostly a script I use personally to quickly updated the hosted version after committing a
+change locally.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The original SvelteKit readme explains how to use it better so here's that:
 
 ## Developing
 
