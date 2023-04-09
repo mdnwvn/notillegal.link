@@ -75,11 +75,12 @@
             <p class="control is-expanded">
               <input class="input" type="text" placeholder="Custom path" bind:value={finalUrl}>
             </p>
-            <p class="control">
-              <span class="button is-primary">
+            <div class="control">
+              <!-- svelte-ignore a11y-missing-attribute -->
+              <div class="button is-primary" onclick="copyUrl();" id="copyButton">
                 Copy
-              </span>
-            </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -100,10 +101,15 @@
   $: finalUrl = host + trimSlashes(customPath) + '/' + Base64.encode(targetUrl);
 
 
-
-
+  
   onMount(async () => {
+
+
+
       var menu = document.querySelector(".navbar-burger");
+      var copyButton = document.querySelector("#copyButton");
+
+      
 
       menu.addEventListener("click", function () {
       var menutarget = menu.getAttribute("data-target");
@@ -111,6 +117,13 @@
       menu.classList.toggle("is-active");
       target.classList.toggle("is-active");
     });
+
+    copyButton.addEventListener("click", function () {
+      navigator.clipboard.writeText(finalUrl);
+      alert("Url copied to keyboard");
+    });
+
+
   });
 
 </script>

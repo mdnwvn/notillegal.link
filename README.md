@@ -6,12 +6,17 @@
 Well you see, I bought this domain 4 years ago and it's been draining my bank account ever since so I thought
 I'd finally get around to doing what I've always meant to do on it.
 
+Code graciously used from these ancient StackOverflow posts:
+* https://stackoverflow.com/questions/3840600/javascript-regular-expression-remove-first-and-last-slash
+* https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
+
+
 # Usage
 
 There's a `build.sh` that automatically stashes then clears the stash of the current directory,
 syncs the repo using the Github CLI, before finally installing deps and building the SvelteKit app.
-This is mostly a script I use personally to quickly updated the hosted version after committing a
-change locally.
+This is mostly a script for personal use to quickly updated the hosted version after committing a
+change to the repo.
 
 #### The original SvelteKit readme explains how to actually get started with Sveltekit so here's that:
 
